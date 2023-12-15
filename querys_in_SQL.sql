@@ -1,3 +1,4 @@
+use pruebas_feli;
 
 select * from imdb_top_1000;
 
@@ -14,8 +15,6 @@ SELECT Genre, COUNT(*) AS Number_of_Movies
 FROM imdb_top_1000
 GROUP BY Genre
 ORDER BY Number_of_Movies DESC;
-
-
 
 
 # Average rating per director
@@ -104,3 +103,13 @@ SELECT Certificate, ROUND(AVG(Runtime), 2) AS Average_Duration
 FROM imdb_top_1000
 GROUP BY Certificate
 ORDER BY Average_Duration;
+
+
+
+
+
+
+
+
+
+
