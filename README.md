@@ -1,0 +1,2 @@
+# Data manipulation with SQL
+ The data manipulation project involved analysis of the dataset calls "imdb_top_1000" table, containing information about the top movies and TV shows. SQL queries were executed to gain various insights: from counting movies per genre and average ratings per director to counting movies released per year and finding movies with the highest number of votes and gross income. Additionally, the average duration of movies per certificate was computed, offering a detailed overview of the dataset for further analysis and visualizations.
